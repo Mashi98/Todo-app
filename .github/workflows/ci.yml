@@ -1,5 +1,1 @@
-mkdir -p .github/workflows
-# copy ci.yml into that folder, then:
-git add .github/workflows/ci.yml
-git commit -m "Add CI workflow"
-git push
+
