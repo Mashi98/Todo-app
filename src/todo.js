@@ -14,7 +14,7 @@ class TodoList {
     if (typeof title !== 'string' || title.trim() === '') {
       throw new Error('Title must be a non-empty string');
     }
-    const todo = { id: this.nextId++, title: title.trim(), done: false };
+    const todo = { id: 0, title: title.trim(), done: false };
     this.todos.push(todo);
     return todo;
   }
